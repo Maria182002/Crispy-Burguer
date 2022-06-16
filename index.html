@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="codigo.css">
 </head>
 <body>
 
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="four columns">
+                <div class="six columns">
                     <h1><img src="img/logo.png" >Crispy Burger</h1>
                 </div>
                 <div class="two columns u-pull-right">
@@ -36,15 +37,15 @@
                                                 <img src="img/platillo1.jpg" width="100">
                                             </td>
                                             <td>Hamburguesa con helado</td>
-                                            <td>$15</td>
+                                            <td>S/.13.00</td>
                                             <td><a href="#" class="borrar-platillo">X</a></td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img src="img/platillo3.jpg" width="100">
+                                                <img src="img/Vino1.jpg" width="100">
                                             </td>
-                                            <td>Hamburguesa sencilla</td>
-                                            <td>$15</td>
+                                            <td>Vino Tinto</td>
+                                            <td>S/.52.00</td>
                                             <td><a href="#" class="borrar-platillo">X</a></td>
                                       </tr>
                                        
@@ -64,17 +65,12 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="four columns">
-                    <nav class="menu">
-                        <li><a href="contactos.html">Pedidos en linea</a></li>                                                
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Bebidas</a></li>
-                        <ul class="submenu">
-                            <li><a href="">Servicio1</a></li>
-                            <li><a href="">Servicio2</a></li>
-                            <li><a href="">Servicio3</a></li>
-                        </ul>
-                        <li><a href="#">Contactos</a></li>
+                <div class="eight columns">
+                    <nav class="menu">                                                                       
+                        <li><a href="pizza.html">Pizzas</a></li>
+                        <li><a href="bebidas.html">Bebidas</a></li>
+                        <li><a href="pedidos.html">Pedidos en Linea</a></li>
+                        <li><a href="login.html">Iniciar Sesion</a></li>                        
                     </nav>
                 </div>                
             </div>
@@ -94,7 +90,7 @@
                 <div class="six columns">
                     <div class="contenido-hero">
                         <h2>Prueba una hamburguesa</h2>
-                        <p>Todas las hamburguesas a menos de $25</p>
+                        <p>Todas las hamburguesas a menos de S/.25</p>
                         <form>
                             <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
                             <input type="submit" class="submit-buscador">
@@ -109,7 +105,7 @@
         <div class="container">
             <div class="row">
                 <div class="four columns icono icono1">
-                    <p>100 Platillos diferentes<br>
+                    <p>Platillos diferentes<br>
                     Explora los nuevos platillos</p>
                 </div>
                 <div class="four columns icono icono2">
@@ -117,180 +113,27 @@
                     Prueba las nuevas combinaciones</p>
                 </div>
                 <div class="four columns icono icono3">
-                    <p>Bebida ilimitada<br>
+                    <p>Bebidas<br>
                     Prueba tu bebida favorita</p>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-    <div id="lista-platillos" class="container">
-        <h1 class="encabezado">Pedidos en linea</h1>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo1.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa sencilla</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$10 <span class="u-pull-right">$6</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo2.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con papas</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$13 <span class="u-pull-right">$10</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo3.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con helado</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$15 <span class="u-pull-right">$13</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo4.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa normal</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$8 <span class="u-pull-right">$4</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo5.jpg" width="292" height="228" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con papas y queso extra</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$14 <span class="u-pull-right">$10</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo3.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con helado y papas</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$20 <span class="u-pull-right">$17</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo2.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Solo Hamburguesa</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$5 <span class="u-pull-right">$5</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo3.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con papas</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$13 <span class="u-pull-right">$10</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo4.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa sin papas</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$10 <span class="u-pull-right">$8</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo5.jpg" width="292" height="250" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa sencilla</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$5 <span class="u-pull-right">$5</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo1.jpg" width="292" height="228" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con papas y coca cola personal</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$25 <span class="u-pull-right">$20</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/platillo2.jpg" width="292" height="228" class="imagen-platillo u full width">
-                    <div class="info-card">
-                        <h4>Hamburguesa con papas y sin ensalada</h4>
-                        <p>Bebida ilimitada</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$15 <span class="u-pull-right">$14</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-
     
 
-    <script src="js/app.js"></script> 
+
+    <form class="form" action="https://formspree.io/f/xayvkzbg"
+    method="POST">
+        <div class="form-container">
+            <h2 class="form-title">Contactanos</h2>
+            <input type="text" class="form-input" placeholder="Nombre:" name="_replyto">
+            <input type="email" class="form-input" placeholder="Email:" name="email">
+            <textarea class="form-input form-input--message" placeholder="Mensaje:" name="message"></textarea>
+
+            <input type="submit" value="Enviar" class="form-cta">
+        </div>
+    </form>
+
+<script src="js/app.js"></script> 
 </body>
 </html>
